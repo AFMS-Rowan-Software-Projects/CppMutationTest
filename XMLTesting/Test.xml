@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20211118-0028-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.16.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="DESKTOP-A0JNB55"
+	OSRelease="5.4.72-microsoft-standard-WSL2"
+	OSVersion="#1 SMP Wed Oct 28 23:40:43 UTC 2020"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="113"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="12712"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3593.26"
+	>
+	<Testing>
+		<StartDateTime>Nov 17 19:28 EST</StartDateTime>
+		<StartTestTime>1637195305</StartTestTime>
+		<TestList>
+			<Test>./test/example.add</Test>
+			<Test>./test/example.subtract</Test>
+			<Test>./mutants/ArithmeticMultToDiv/test/example_ArithmeticMultToDiv.add</Test>
+			<Test>./mutants/ArithmeticMultToDiv/test/example_ArithmeticMultToDiv.subtract</Test>
+			<Test>./mutants/ArithmeticPlusToMinus/test/example_ArithmeticPlusToMinus.add</Test>
+			<Test>./mutants/ArithmeticPlusToMinus/test/example_ArithmeticPlusToMinus.subtract</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>example.add</Name>
+			<Path>./test</Path>
+			<FullName>./test/example.add</FullName>
+			<FullCommandLine>/root/SWENG/GoogleTest/gtest-demo/build/bin/unit_tests "--gtest_filter=example.add" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0013705</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/root/SWENG/GoogleTest/gtest-demo/build/bin/unit_tests "--gtest_filter=example.add" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkE1rhDAQhu/5FXNcD5rudWEPhS4eCrZoSw8iS9bMSiDJSBzb/vwalaUWSjuHMB9v3jyZcvTe+A6cMn6XwDWQAxmIWFZvpyKXOVFn8QUHlh1PZ6rRkbyMxmp51tgPa3sIrexmbSzlXMbsHI2zthUFMR5gsYPoB1djGQMcAT+V6y1mSmtRH2/RQLnC7YHnCxFuzYfRMGaiTm/RQG7pouwyR/9uAnmHftIip2P/Q/zdcwUQNZSvBczRbKmWJjw9bgewuwM3JH86LzpgYmUT8T9qRhVSTR9+u5PfdgFB+Wz7zkT9fF9Vp4f4nUWbiS9i9J1S====</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>unit</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>example.subtract</Name>
+			<Path>./test</Path>
+			<FullName>./test/example.subtract</FullName>
+			<FullCommandLine>/root/SWENG/GoogleTest/gtest-demo/build/bin/unit_tests "--gtest_filter=example.subtract" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0012921</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/root/SWENG/GoogleTest/gtest-demo/build/bin/unit_tests "--gtest_filter=example.subtract" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUMFKxDAQvecr5rg9tNGrsAfBpQehSqt4KGVJ29kSSDIlmaqfb9OWxZUVfYcwk/fy5mXKyTntBrBKu10CJ08WpCdiWb0dilzmRIPBFwwsB57PtEdLsp206eWxxzFs18F3cli0sZVLG6tjNM66ThTEeAerHUQ/OGnD6GEP+KnsaDALU8tedSzq/RkNlFvCW+DlVUy41WHSjJmo0zMayA21yqw8unftyVl0sxY5ncYf4u+eWwpRQ/lawILmSrSVgafHKyzsbsCG5M8Zqw6YWJlE/C8/o/JpTx/ucju/bQW8ctnlnDn6831VHR7ix1ZtJr4AB3ekDw==</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>unit</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>example_ArithmeticMultToDiv.add</Name>
+			<Path>./mutants/ArithmeticMultToDiv/test</Path>
+			<FullName>./mutants/ArithmeticMultToDiv/test/example_ArithmeticMultToDiv.add</FullName>
+			<FullCommandLine>/root/SWENG/GoogleTest/gtest-demo/build/bin/unit_tests_ArithmeticMultToDiv "--gtest_filter=example_ArithmeticMultToDiv.add" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0013231</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/root/SWENG/GoogleTest/gtest-demo/build/bin/unit_tests_ArithmeticMultToDiv "--gtest_filter=example_ArithmeticMultToDiv.add" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydkD9rwzAQxXd9ihvjwVa7FjIEEjyUusVO6WCMUayLK9AfI5/TfvxatglNoU3JDeJO+unp6eWDtcq2YISyqwiO3hng3jnixdsuS3nqXKtxjz3xlsY1lmgcPwxKS15L7Pplu/cNbyc2jHwaQ1cH4aRpWOYIH2CWg6AHR6UJPawBP4XpNNYbr+jdIKnmadC0d1t1SoSUrFyfq4J8MXwPNIkEw0vfD4owYWV8rgpS7Q5Cz+doT8o7a9COLFI8dD/g75p/mGIl5K8ZTFVddz+D8Px4HYbVHZg+usnVfBfIkdAR+18KhMLH0n3Yy4x/yxa8sMnlO+PvXjZFsduGKGY2YV99PMUH====</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>unit</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>example_ArithmeticMultToDiv.subtract</Name>
+			<Path>./mutants/ArithmeticMultToDiv/test</Path>
+			<FullName>./mutants/ArithmeticMultToDiv/test/example_ArithmeticMultToDiv.subtract</FullName>
+			<FullCommandLine>/root/SWENG/GoogleTest/gtest-demo/build/bin/unit_tests_ArithmeticMultToDiv "--gtest_filter=example_ArithmeticMultToDiv.subtract" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0011838</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/root/SWENG/GoogleTest/gtest-demo/build/bin/unit_tests_ArithmeticMultToDiv "--gtest_filter=example_ArithmeticMultToDiv.subtract" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydUMtqwzAQvOsr9hgfbLXXQg6BBB9K3WKn9GCMke2NK9DDSKu0n1+/CE2hJXQOYleaHc1OHoyRpgctpNlEcHJWA3fWEi/eDlnKU2t7hUf0xHsaz7hDbXkTpOp43eHg12vvWt7P3KnlcztV9SSctC3LLOEDLHIw6cFJKkIHW8BPoQeF9c5JetdIsn0Kio52L8+JDw050RIrtxdUkK+u74Fmpcn1WvsgCRNWxhdUkCrbCLW8ozlLZ41GM3KR4jD8IH/X/MMZKyF/zWBGdeMKCxueH2+cgM0daB/9y98yC2RJqIjdlgehcHFnP8x12r+lDE6Y5PqfccWXXVEc9lMoCzdhX5n5y8Q=</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>unit</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>example_ArithmeticPlusToMinus.add</Name>
+			<Path>./mutants/ArithmeticPlusToMinus/test</Path>
+			<FullName>./mutants/ArithmeticPlusToMinus/test/example_ArithmeticPlusToMinus.add</FullName>
+			<FullCommandLine>/root/SWENG/GoogleTest/gtest-demo/build/bin/unit_tests_ArithmeticPlusToMinus "--gtest_filter=example_ArithmeticPlusToMinus.add" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0012727</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/root/SWENG/GoogleTest/gtest-demo/build/bin/unit_tests_ArithmeticPlusToMinus "--gtest_filter=example_ArithmeticPlusToMinus.add" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydUsFqIzEMvfsrdEwgM860PbSBHgKbhoVuKMksewghOGMlMXjswZab/fzaM7OlKdvdtDoYS3560pO1DMYoc4BaKDMYwt7ZGrizlvjq12wx53NrDxpL9MQPFM9MYm35Ligt+VZi4/uwdxU/tNjk8tZNt20izquKLSzhBDo6SHywV5rQwT3gb1E3GrdTp+hYI6nqSQdf2h/KBJ8LKdn6/tU2sOxbLoBamtRyf/dBEeZsnb3aBuba7oTu3tE8K2dNjSZikbLQvAO/5fxnW2wNy58LaG1zgYL/z7QOJAx5/lcO3k71T5lI+EGpqmkmtxN4EEoHh6w8Iki136NDUyHskE6IBhx6EEbCdT4G5eFmBKejqo5RRoUoPRT5GLOiSOGYyRIcn4UOInYBZCErRizlngWvR4mT9bnnb3f53bndRMxVnD3Aw/T74+zbRUOEwRhqP/zij3XZsRsSesgu2xFC4TJpT+Z8Az/aPHDC5DAo3tSJCp+mq1WncNxi/TvdHcMItPKEMn6StqfJJ0fDWKTp8eVsVbIXH1xFkQ==</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>unit</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>example_ArithmeticPlusToMinus.subtract</Name>
+			<Path>./mutants/ArithmeticPlusToMinus/test</Path>
+			<FullName>./mutants/ArithmeticPlusToMinus/test/example_ArithmeticPlusToMinus.subtract</FullName>
+			<FullCommandLine>/root/SWENG/GoogleTest/gtest-demo/build/bin/unit_tests_ArithmeticPlusToMinus "--gtest_filter=example_ArithmeticPlusToMinus.subtract" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0011896</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/root/SWENG/GoogleTest/gtest-demo/build/bin/unit_tests_ArithmeticPlusToMinus "--gtest_filter=example_ArithmeticPlusToMinus.subtract" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydUMtqwzAQvOsr9hgfbLXXQg6BBh9C3WCn9GCMke2NK9DDSKu2n1+/CE2hJXQOYleaHc1OHoyRpgctpNlEcHZWA3fWEi9e91nKU2t7hSf0xHsaz7hDbXkTpOp43eHg12vvWt7P3KnlcztV9SSctC3LLOEDLHIw6cFZKkIHW8BPoQeF9c5JetNIsj2q4E/2SZrgEx8acqIlVm4vqCBffd8DzVqT77X2QRImrIwvqCBVthFqeUfzLp01Gs3IRYrD8IP8XfNPb6yE/CWDGdXNayx8eD7cPAObO9A++qfLZRrIklARuy0XQuHizn6Y69R/SxucMMn1P+Oax11R7B+naBZuwr4AL27QWw==</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>unit</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Nov 17 19:28 EST</EndDateTime>
+		<EndTestTime>1637195305</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
